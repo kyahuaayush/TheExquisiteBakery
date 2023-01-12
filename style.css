@@ -1,0 +1,28 @@
+/* 
+My Color guide
+
+Exquisite yellow: #FFFBF0
+Exquisite red:#F9BDB5
+Exquisite green: #B1DDD2
+
+
+*/
+
+.navbar-logo {
+  width: 50%;
+}
+
+.navbar {
+  background-color: #b1ddd2 !important;
+}
+
+.navbar-btn {
+  background-color: #fffbf0 !important;
+  color: #000;
+  width: 100px;
+  border-radius: 50px !important;
+}
+
+.cart-icon {
+  width: 20px;
+}
