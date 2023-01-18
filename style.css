@@ -16,6 +16,9 @@ Exquisite green: #B1DDD2
   background-color: #b1ddd2 !important;
 }
 
+body {
+  background-color: #b1ddd2 !important;
+}
 .navbar-btn {
   background-color: #fffbf0 !important;
   color: #000;
@@ -25,4 +28,191 @@ Exquisite green: #B1DDD2
 
 .cart-icon {
   width: 20px;
+}
+
+.carousel-item,
+.d-block {
+  width: min-content;
+  height: 600px;
+}
+
+@font-face {
+  font-family: "Exquisitefont";
+  src: url(./Assets/font/Fontspring-DEMO-theseasons-reg.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.carousel-head {
+  font-size: 500%;
+  font-family: "Exquisitefont";
+  color: #74450e;
+  background-color: rgba(255, 255, 255, 0.4);
+  vertical-align: middle !important;
+}
+
+.carousel-subtitle {
+  font-size: 200%;
+  font-family: "Exquisitefont";
+  color: #74450e;
+  background-color: rgba(255, 255, 255, 0.4);
+  vertical-align: middle;
+}
+
+.know-more {
+  background-color: #b1ddd2 !important;
+  color: #74450e !important;
+  font-family: "Exquisitefont" !important;
+  border: 3px solid #74450e !important;
+  border-radius: 15px !important;
+  font-size: 150% !important;
+}
+
+/* .container>srch {
+  background-color: #f9bdb5;
+  width: 55% !important;
+  margin: auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 3px solid #74450e;
+  height: 72px;
+} */
+.srch {
+  width: 70% !important;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.bar_search {
+  display: table-cell;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.sbox,
+.categories {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  color: #a0d18c;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+.iconsearch {
+  width: 5%;
+}
+
+.categories {
+  float: right;
+}
+
+.contentheading {
+  font-family: "Exquisitefont" !important;
+  color: #74450e !important;
+  font-weight: bolder;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.one {
+  width: 20rem;
+  margin-left: 10px;
+  display: block;
+  margin: auto;
+  height: 100% !important;
+  width: 100%;
+}
+
+.card-footer {
+  background-color: #fff !important;
+  border-top: 0px solid #fff !important;
+}
+
+.add {
+  float: right;
+  font-family: "Exquisitefont" !important;
+  font-weight: bold !important;
+  border-radius: 25px !important;
+  color: #74450e !important;
+  width: 100px;
+  background-color: #f9bdb5 !important;
+  border: 2px solid #74450e !important;
+}
+
+.contain {
+  margin: auto;
+  padding: auto;
+  width: 99%;
+  margin-left: 70px !important;
+}
+
+.line {
+  color: #74450e !important;
+}
+
+.flogo {
+  display: list-item;
+  width: 200px;
+}
+
+.foot {
+  float: right;
+  color: #74450e;
+}
+
+.footicon {
+  width: 100% !important;
+  height: 45px;
+  margin: 10px auto;
+  float: right;
+}
+
+.Signup {
+  background-color: #b1ddd2 !important;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #74450e !important;
+  color: #74450e !important;
+  height: 30px;
+  padding: 10px;
+}
+
+.cart {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(177, 221, 210, 0.4);
+  color: #74450e;
+  text-align: center;
+  font-family: "Exquisitefont" !important;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #74450e !important;
+  font-size: 30px;
+}
+
+.carticon {
+  width: 3% !important;
+  height: 25px;
+  margin: 10px auto !important;
+}
+
+.card-img-top {
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: cover;
+  background-position: 50% 50%;
 }
