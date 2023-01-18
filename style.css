@@ -4,7 +4,7 @@ My Color guide
 Exquisite yellow: #FFFBF0
 Exquisite red:#F9BDB5
 Exquisite green: #B1DDD2
-
+brown: #74450e
 
 */
 
@@ -25,4 +25,276 @@ Exquisite green: #B1DDD2
 
 .cart-icon {
   width: 20px;
+}
+
+.middle-left {
+  position: absolute;
+  bottom: 230px;
+  left: 150px;
+}
+
+@font-face {
+  font-family: theseasonsdup;
+  src: url(CantataOne-Regular.ttf);
+}
+
+.headerfont {
+  font-family: theseasonsdup;
+  color: #74450e !important;
+  font-weight: 900 !important;
+  font-size: 350% !important;
+  margin-bottom: 20px !important ;
+  text-shadow: 1px 1px white;
+}
+
+.contentfont {
+  font-family: theseasonsdup;
+  color: #74450e !important;
+  font-weight: 600 !important;
+  font-size: 130% !important;
+}
+
+.headerfontlight{
+  font-family: theseasonsdup;
+  color: beige !important;
+  font-weight: 900 !important;
+  font-size: 350% !important;
+  margin-bottom: 20px !important ;
+  text-shadow: 1px 1px grey;
+}
+
+.contentfontlight {
+  font-family: theseasonsdup;
+  color: beige !important;
+  font-weight: 600 !important;
+  font-size: 130% !important;
+}
+
+.searchbarrow{
+  height: 70px;
+  background-color:#F9BDB5;
+  padding-left: 2cm;
+  border-radius: 50px;
+  width: 75%;
+  margin-left: 150px !important;
+  margin-top: 40px !important;
+}
+
+.searchbarcategories{
+  margin-top: 15px;
+  background-color: #FBD2CC !important;
+  width: 70%;
+  border-radius: 25px!important;
+  border-style: none !important;
+}
+
+.searchTerm{
+  background-color: #FBD2CC;
+  border-radius: 25px;
+  border-style: none;
+  width: 100%;
+  margin-top: 15px;
+  height: 55%;}
+
+  body{
+    background-color: #b1ddd2 !important;
+  }
+
+  h3{
+    font-family: theseasonsdup;
+  color: #74450e !important;
+  font-weight: 900 !important;
+  font-size: 200% !important;
+  margin-bottom: 20px !important ;
+  margin-left: 50px;
+  margin-top: 50px !important
+  }
+
+.c0{
+  width: 90% !important;
+  margin-left: 40px;
+  margin-right: 50px !important;
+  margin-bottom: 25px !important;
+}
+
+.c1{
+  width: 90% !important;
+margin-left: 20px;
+margin-bottom: 25px !important;}
+
+.c2{
+  width: 90% !important;
+  margin-bottom: 25px !important;
+  height: 95% !important;
+}
+
+.c3{
+  width: 93% !important;
+  margin-left: 40px;
+  margin-right: 50px !important;
+}
+
+.c4{
+  width: 93% !important;
+  margin-left: 27px;
+  height: 100% !important;
+}
+
+.c5{
+  width: 93% !important;
+  margin-left: 17px;
+}
+
+.card-body{
+  background-color: #fffbf0 !important;
+}
+.addcart{
+  margin-left: 240px !important;
+  background-color: white !important;
+  border-radius: 50px !important;
+  border-color: #74450e !important;
+  border-width: 4px !important;
+  width: 90px;
+  color: #74450e !important;
+  font-weight: 900 !important;
+  margin-top: -20px !important;
+}
+
+h6{
+  font-weight: 900 !important;
+  font-size: larger !important;
+}
+
+.cartfinal{
+  margin-top: 15px !important;
+  background-color: #F9BDB5 !important;
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-color: #74450e !important;
+  border-width: 100px !important;
+  width: 95% !important;
+  height: 40px !important; 
+  margin-left: 30px !important;
+
+}
+
+h7{
+  text-align: center;
+  margin-top: 6px !important;
+  font-weight: 900 !important;
+  font-size: larger !important;
+}
+
+.footer-logo{
+  width: 3cm;
+  margin-top: 45px ;
+  margin-left: 40px;
+  margin-bottom: 90px;
+  margin-right: 10px;
+
+}
+
+.footer{
+  background-color:#EBD1C9 !important;
+
+}
+
+.fo2{
+  margin: left 60px !important;
+  font-size: small;
+  margin-top: 40px !important;
+}
+
+.fo3{
+  font-size: small;
+  margin-top: 30px !important;
+}
+
+.fo4{
+  font-size: small;
+  margin-top: 40px !important;
+}
+
+.fo5{
+  font-size: small;
+  margin-top: 20px !important;
+}
+
+.cart{
+  background-color: white !important;
+}
+
+h9{
+  font-weight: 500;
+  font-size: larger;
+  margin-left: 25px;
+}
+
+h10{
+  margin-left: 25px;
+  margin-top: 50px !important;
+}
+
+h11{
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+h12{
+  margin-left: 25px;
+}
+
+h13{
+ margin-left:  30px;
+}
+
+.cartremove{
+  margin-right: 10px;
+  width:3% !important;
+  margin-bottom: 3px !important;
+}
+
+.cartadd{
+  margin-right: 10px;
+  width:3% !important;
+  margin-bottom: 3px !important;
+  margin-left: 10px !important;
+}
+
+h15{
+  font-weight: 600 !important;
+margin-left: 170px !important;
+margin-bottom: 100px !important;}
+
+h16{
+  margin-left: 25px;
+}
+
+h17{
+  margin-left: 280px !important;
+  font-weight: 700 !important;
+  font-size: medium !important;
+}
+
+h18{
+  margin-left: 25px !important;
+  font-weight: 700 !important;
+  font-size: medium !important;
+}
+
+.cart-btn-shop {
+  background-color: #fffbf0 !important;
+  color: #6BB8A5 !important;
+  width: 100px;
+  border-radius: 50px !important;
+  width: 100%;
+  border-color:#6BB8A5 !important;
+}
+
+.cart-btn-pay {
+  background-color: #6BB8A5!important;
+  color: white !important;
+  width: 100px;
+  border-radius: 50px !important;
+  width: 100%;
 }
