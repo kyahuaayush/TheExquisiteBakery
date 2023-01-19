@@ -27,10 +27,20 @@ brown: #74450e
   width: 20px;
 }
 
-.middle-left {
-  position: absolute;
-  bottom: 230px;
-  left: 150px;
+.cake1{
+  max-height:100vh ;
+}
+
+.cake2{
+  max-height:100vh ;
+}
+
+.cake3{
+  max-height:100vh ;
+}
+.carousel-caption{
+  position: absolute !important;
+  top: 35% !important;
 }
 
 @font-face {
@@ -42,32 +52,38 @@ brown: #74450e
   font-family: theseasonsdup;
   color: #74450e !important;
   font-weight: 900 !important;
-  font-size: 350% !important;
+  font-size: 3.5em !important;
   margin-bottom: 20px !important ;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px rgb(195, 183, 183);
+  background-color: rgba(202, 124, 124, 0.4);
 }
 
 .contentfont {
   font-family: theseasonsdup;
   color: #74450e !important;
   font-weight: 600 !important;
-  font-size: 130% !important;
+  font-size: 1.5em !important;
+  text-shadow: 1px 1px rgb(195, 183, 183);
+  background-color: rgba(202, 124, 124, 0.4);
 }
 
 .headerfontlight{
   font-family: theseasonsdup;
   color: beige !important;
   font-weight: 900 !important;
-  font-size: 350% !important;
+  font-size: 4em !important;
   margin-bottom: 20px !important ;
   text-shadow: 1px 1px grey;
+  background-color: rgba(71, 41, 41, 0.4);
 }
 
 .contentfontlight {
   font-family: theseasonsdup;
   color: beige !important;
   font-weight: 600 !important;
-  font-size: 130% !important;
+  font-size: 1.5em !important;
+  text-shadow: 1px 1px grey;
+  background-color: rgba(71, 41, 41, 0.4);
 }
 
 .searchbarrow{
@@ -80,6 +96,10 @@ brown: #74450e
   margin-top: 40px !important;
 }
 
+.searchTerm::placeholder { /* Microsoft Edge */
+  color: white;
+  text-align: center;
+}
 .searchbarcategories{
   margin-top: 15px;
   background-color: #FBD2CC !important;
@@ -110,46 +130,71 @@ brown: #74450e
   margin-top: 50px !important
   }
 
+.product1{
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+.product2{
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+
+
 .c0{
-  width: 90% !important;
-  margin-left: 40px;
-  margin-right: 50px !important;
-  margin-bottom: 25px !important;
-}
+  
+ 
 
-.c1{
-  width: 90% !important;
-margin-left: 20px;
-margin-bottom: 25px !important;}
-
-.c2{
-  width: 90% !important;
-  margin-bottom: 25px !important;
-  height: 95% !important;
-}
-
-.c3{
-  width: 93% !important;
-  margin-left: 40px;
-  margin-right: 50px !important;
-}
-
-.c4{
-  width: 93% !important;
-  margin-left: 27px;
+  width: 100% !important;
   height: 100% !important;
 }
 
+.c1{
+
+width: 100% !important;
+height: 100% !important;}
+
+.c2{
+ 
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.c3{
+ 
+
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.c4{
+ 
+
+  width: 100% !important;
+  height: 100% !important;
+  
+}
+
 .c5{
-  width: 93% !important;
-  margin-left: 17px;
+ 
+
+  width: 100% !important;
+  height: 100% !important;
+  
 }
 
 .card-body{
   background-color: #fffbf0 !important;
 }
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
 .addcart{
-  margin-left: 240px !important;
   background-color: white !important;
   border-radius: 50px !important;
   border-color: #74450e !important;
@@ -157,8 +202,11 @@ margin-bottom: 25px !important;}
   width: 90px;
   color: #74450e !important;
   font-weight: 900 !important;
-  margin-top: -20px !important;
+  position:relative;
+  left: 70% !important;
+
 }
+
 
 h6{
   font-weight: 900 !important;
@@ -166,20 +214,26 @@ h6{
 }
 
 .cartfinal{
-  margin-top: 15px !important;
+
   background-color: #F9BDB5 !important;
   border-top-right-radius: 25px !important;
   border-top-left-radius: 25px !important;
   border-color: #74450e !important;
-  border-width: 100px !important;
-  width: 95% !important;
+  border-bottom: none !important;
+  border-style: solid;
+  width: 100% !important;
   height: 40px !important; 
-  margin-left: 30px !important;
+  margin: 0% !important;
+  position: fixed;
+  bottom: 0;
 
 }
-
+ul{
+  list-style-type: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 2.5em;}
 h7{
-  text-align: center;
+  text-align: center !important;
   margin-top: 6px !important;
   font-weight: 900 !important;
   font-size: larger !important;
@@ -192,6 +246,10 @@ h7{
   margin-bottom: 90px;
   margin-right: 10px;
 
+}
+
+.footerlogocol{
+  width: 1em;
 }
 
 .footer{
